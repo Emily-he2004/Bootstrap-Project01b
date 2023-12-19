@@ -404,15 +404,14 @@ body {
   width: 100%;
 }
 
-.back-to-top {
-  margin-top: 2rem;
-}
 .back-to-top div {
   display: inline-block;
 }
 .back-to-top a {
+  border: solid rgb(113, 44, 249) .3rem;
+  border-radius: 1rem;
   text-decoration: none;
-  color: orange;
+  color: rgb(113, 44, 249);
   font-size: 1.5rem;
 }
 
@@ -463,10 +462,20 @@ body {
   font-size: 3rem;
 }
 
-.footer-color {
-  background-color: rgb(241, 241, 241);
-  border-top: 1px solid black;
+.social-media,
+.back-to-top{
+  background-color: #C1A9FA;
 }
+
+.footer-color {
+  background-color: black;
+  /* border-top: 1px solid white; */
+}
+
+.footer-color .col p{
+  color: white;
+}
+
 @media (min-width: 360px) {
   .footer-color .footer-content .row .col {
     flex: 0 0 50%;
@@ -754,8 +763,19 @@ p {
   border-radius: .7rem;
 }
 
+.bootstrap-presentation-info{
+  background-color: black;
+  color: white;
+  padding: 1.5rem 1rem;
+  
+}
+
+.bootstrap-presentation-info h2, p{
+  color: white;
+}
+
 .bootstrap-demo1{
-  margin: 1rem;
+  margin: 2rem 0;
   padding: 1rem;
   border: double rgb(113, 44, 249) .4rem;
   border-radius: 1rem;
@@ -782,14 +802,13 @@ p {
   border: double .6rem white;
   border-radius: .7rem;
   background-color: rgba(255, 255, 255, 0.579);
-/* 
-  display: flex;
-  flex-direction: column; */
+
 }
 
 .nav-demo h3{
   border-bottom: black .1rem solid;
   padding: 0 0 .8rem 0;
+  color: black;
 }
 
 .nav-demo p{
@@ -810,4 +829,5 @@ p {
 
 .nav-demo ol li{
   font-size: 1.1rem;
+  color: black;
 }
