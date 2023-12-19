@@ -747,7 +747,12 @@ p {
 
 /* ________PROJECT 1B STYLING FROM HERE ONWARDS________ */
 
-
+.bootstrap-logo{
+  color: white;
+  background-color: rgb(113, 44, 249);
+  padding: .4rem .4rem .8rem .4rem;
+  border-radius: .7rem;
+}
 
 
 
