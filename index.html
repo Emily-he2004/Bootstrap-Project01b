@@ -193,7 +193,7 @@
         <p>Using Bootstrap Components & Bootstrap's Grid System</p>
         <div class="nav-demo">
             <h3>Navigation</h3>
-            <p>Using a <a href=""https://getbootstrap.com/docs/5.3/components/navbar/#nav>navbar component</a> from the Bootstrap Website, we plugged it into this website. (what you see in the navigation above)</p>
+            <p>Using a <a href=""https://getbootstrap.com/docs/5.3/components/navbar/#nav target="_blank">navbar component</a> from the Bootstrap Website, we plugged it into this website. (what you see in the navigation above)</p>
             <p>In the navbar components section, we used the 2nd variation: 
                 <picture>
                     <source srcset="images/navbar-component-version02.png" type="image/png">
@@ -212,7 +212,66 @@
         </div>
         <div class="nav-demo">
             <h3>Footer</h3>
-            <p></p>
+            <p> Here, the footer of this website is organized using <a href="https://getbootstrap.com/docs/5.3/layout/grid/#example" target="_blank">Bootstrap's grid system</a> to create a responsive layout. The content is structured within a container that spans the full width of the viewport. The grid system is utilized to arrange the content into rows and columns. On smaller screens, each column within a row takes up the full width, providing a clean and straightforward layout. As the screen size increases, the columns adapt dynamically to maintain an organized structure. This ensures that the footer is visually appealing and well-organized across a variety of devices and screen sizes.</p>
+            <p>In Bootstrap's Grid System, it's important to highlight that the structure of rows and columns is defined and implemented directly in the HTML file rather than the CSS. While the CSS handles additional styling related to responsiveness using flexbox (such as media queries), the primary application of the grid system itself is done within the HTML markup.</p>
+            <p>Here's what the HTML code for the footer looks like:</p>
+            <picture>
+                <source srcset="images/footer-html-code.png" type="image/png">
+                <img src="images/footer-html-code.png" alt="(bootstrap component code styled results)">
+            </picture>
+            <p>And here's a breakdown of how the grid system is used:</p>
+            <ol>
+                <li>
+                    <strong>Grid Structure:</strong>
+                    <ul>
+                        <li>The outermost `&lt;div class="footer-color&gt;` contains the entire footer section.</li>
+                        <li>Inside it, &lt;div class="container-fluid footer-content"&gt; is a Bootstrap container, ensuring proper spacing and alignment.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Rows & Columns:</strong>
+                    <ul>
+                        <li>In &lt;div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 font-after-video"&gt;: This div sets up the grid system. It says:
+                            <ul>
+                                <li>Use a single column per row (row-cols-1) on extra-small screens.</li>
+                                <li>Use two columns per row (row-cols-sm-2) on small screens.</li>
+                                <li>Use four columns per row (row-cols-md-4) on medium screens and larger.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Column Content:</strong>
+                    <ul>
+                        <li>&lt;div class="col"&gt;: Each of these divs represents a column in the grid. Columns are used to organize and group content within rows.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Content in Columns:</strong>
+                    <ul>
+                        <li>Inside each column (&lt;div class="col"&gt;), there are &lt;p&gt; tags containing different footer section titles like "Speakers," "Support," etc.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Responsive Flexbox:</strong>
+                    <ul>
+                        <li>The grid system utilizes Bootstrap's flexbox features. Flexbox is a layout model that allows items within a container to be dynamically arranged based on screen size.</li>
+                        <li>Classes like "col" indicate that the content within each column should be flex items.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Flex Wrapping:</strong>
+                    <ul>
+                        <li>As the screen size changes, the number of columns per row adjusts:
+                            <ul>
+                                <li>On extra-small screens, it's a single column per row.</li>
+                                <li>On small screens, it's two columns per row.</li>
+                                <li>On medium screens and larger, it's four columns per row.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
         </div>
     </section>
 
