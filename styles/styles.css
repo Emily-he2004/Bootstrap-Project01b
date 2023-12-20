@@ -1,12 +1,16 @@
 @charset "UTF-8";
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
-    background-color: white;
-    font-size: 1.5rem;
-    color: black;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  background-color: white;
+  font-size: 1.5rem;
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar {
@@ -534,7 +538,7 @@ p {
     font-size: 2rem;
   }
   p {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 1000px) {
@@ -542,7 +546,7 @@ p {
     font-size: 3rem;
   }
   p {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 }
 .carousel-indicators [data-bs-target] {
@@ -811,14 +815,14 @@ p {
   color: black;
 }
 
-.nav-demo p{
-  font-size: 1.1rem;
+.nav-demo p,
+.nav-demo ol li{
+  font-size: 1rem;
   color: #242424;
   font-style: normal;
 }
 
 .nav-demo img {
-  width: 80%; 
   height: auto;
   margin: 1rem 0;
   border-radius: 10px; 
@@ -827,7 +831,66 @@ p {
   display: block;
 }
 
-.nav-demo ol li{
-  font-size: 1.1rem;
-  color: black;
+.nav-demo code{
+  background-color: rgba(255, 255, 255, 0.771);
+  font-weight: 900;
+  padding: .2rem;
+  border-radius: .2rem;
+}
+
+.nav-img img{
+  width: 100%; 
+}
+
+.footer-img img{
+  width: 80%;
+}
+
+@media (min-width: 768px){
+
+  .nav-img img{
+    width: 80%; 
+  }
+
+  .footer-img img{
+    width: 50%;
+  }
+
+}
+
+@media (min-width: 1024px){
+
+  .nav-img img{
+    width: 60%; 
+  }
+  
+  .footer-img img{
+    width: 30%;
+  }
+
+  .nav-demo p,
+  .nav-demo ol li,
+  .bootstrap-demo1 p, h2{
+    font-size: 1.1rem;
+  }
+
+}
+
+
+@media (min-width: 1440px){
+
+  .nav-img img{
+    width: 50%; 
+  }
+  
+  .footer-img img{
+    width: 25%;
+  }
+
+  .nav-demo p,
+  .nav-demo ol li,
+  .bootstrap-demo1 p, h2{
+    font-size: 1.2rem;
+  }
+
 }
