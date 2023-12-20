@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -313,7 +313,12 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* 这里的 rgba 控制蒙版的颜色和透明度 */
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.5
+    ); /* 这里的 rgba 控制蒙版的颜色和透明度 */
   }
   /* 图片样式 */
   .image-container-dale img {
@@ -412,7 +417,7 @@ body {
   display: inline-block;
 }
 .back-to-top a {
-  border: solid rgb(113, 44, 249) .3rem;
+  border: solid rgb(113, 44, 249) 0.3rem;
   border-radius: 1rem;
   text-decoration: none;
   color: rgb(113, 44, 249);
@@ -467,8 +472,8 @@ body {
 }
 
 .social-media,
-.back-to-top{
-  background-color: #C1A9FA;
+.back-to-top {
+  background-color: #c1a9fa;
 }
 
 .footer-color {
@@ -476,7 +481,7 @@ body {
   /* border-top: 1px solid white; */
 }
 
-.footer-color .col p{
+.footer-color .col p {
   color: white;
 }
 
@@ -757,140 +762,132 @@ p {
   }
 }
 
-
 /* ________PROJECT 1B STYLING FROM HERE ONWARDS________ */
 
-.bootstrap-logo{
+.bootstrap-logo {
   color: white;
   background-color: rgb(113, 44, 249);
-  padding: .4rem .6rem .8rem .6rem;
-  border-radius: .7rem;
+  padding: 0.4rem 0.6rem 0.8rem 0.6rem;
+  border-radius: 0.7rem;
 }
 
-.bootstrap-presentation-info{
+.bootstrap-presentation-info {
   background-color: black;
   color: white;
   padding: 1.5rem 1rem;
-  
 }
 
-.bootstrap-presentation-info h2, p{
+.bootstrap-presentation-info h2,
+p {
   color: white;
 }
 
-.bootstrap-demo1{
+.bootstrap-demo {
   margin: 2rem 0;
   padding: 1rem;
-  border: double rgb(113, 44, 249) .4rem;
+  border: double rgb(113, 44, 249) 0.4rem;
   border-radius: 1rem;
   background-color: rgb(113, 44, 249);
 }
 
-.bootstrap-demo1 h2{
+.bootstrap-demo h2 {
   color: white;
   font: bolder;
   font-size: 1.8rem;
-  padding: 0 0 .8rem 0;
-  border-bottom: #fff .1rem solid;
+  padding: 0 0 0.8rem 0;
+  border-bottom: #fff 0.1rem solid;
 }
 
-.bootstrap-demo1 p{
+.bootstrap-demo p {
   color: white;
   font-size: 1rem;
   font-style: italic;
 }
 
-.nav-demo{
+.demo {
   padding: 1rem;
   margin: 1rem 0;
-  border: double .6rem white;
-  border-radius: .7rem;
+  border: double 0.6rem white;
+  border-radius: 0.7rem;
   background-color: rgba(255, 255, 255, 0.579);
-
 }
 
-.nav-demo h3{
-  border-bottom: black .1rem solid;
-  padding: 0 0 .8rem 0;
+.demo h3 {
+  border-bottom: black 0.1rem solid;
+  padding: 0 0 0.8rem 0;
   color: black;
 }
 
-.nav-demo p,
-.nav-demo ol li{
+.demo p,
+.demo ol li {
   font-size: 1rem;
   color: #242424;
   font-style: normal;
 }
 
-.nav-demo img {
+.demo img {
   height: auto;
   margin: 1rem 0;
-  border-radius: 10px; 
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
+
   display: block;
 }
 
-.nav-demo code{
+.demo code {
   background-color: rgba(255, 255, 255, 0.771);
   font-weight: 900;
-  padding: .2rem;
-  border-radius: .2rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
 }
 
-.nav-img img{
-  width: 100%; 
+.nav-img img {
+  width: 100%;
 }
 
-.footer-img img{
+.footer-img img {
   width: 80%;
 }
 
-@media (min-width: 768px){
-
-  .nav-img img{
-    width: 80%; 
+@media (min-width: 768px) {
+  .nav-img img {
+    width: 80%;
   }
 
-  .footer-img img{
+  .footer-img img {
     width: 50%;
   }
-
 }
 
-@media (min-width: 1024px){
-
-  .nav-img img{
-    width: 60%; 
+@media (min-width: 1024px) {
+  .nav-img img {
+    width: 60%;
   }
-  
-  .footer-img img{
+
+  .footer-img img {
     width: 30%;
   }
 
-  .nav-demo p,
-  .nav-demo ol li,
-  .bootstrap-demo1 p, h2{
+  .demo p,
+  .demo ol li,
+  .bootstrap-demo p,
+  h2 {
     font-size: 1.1rem;
   }
-
 }
 
-
-@media (min-width: 1440px){
-
-  .nav-img img{
-    width: 50%; 
+@media (min-width: 1440px) {
+  .nav-img img {
+    width: 50%;
   }
-  
-  .footer-img img{
+
+  .footer-img img {
     width: 25%;
   }
-
-  .nav-demo p,
-  .nav-demo ol li,
-  .bootstrap-demo1 p, h2{
+  .demo p,
+  .demo ol li,
+  .bootstrap-demo p,
+  h2 {
     font-size: 1.2rem;
   }
-
 }
