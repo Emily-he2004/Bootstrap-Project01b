@@ -586,6 +586,7 @@ p {
 
 .slide-content {
   text-transform: none;
+  color: #242424;
 }
 
 .col img {
@@ -900,4 +901,26 @@ p {
 .conclusion-title {
   text-align: center;
   font-size: 1.8rem;
+}
+
+.demo-start{
+  border: dotted white .3rem;
+  border-radius: .7rem;
+  padding: 1.2rem .5rem .2rem .5rem;
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-start p{
+  font-style: italic;
+}
+
+.demo-start-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
