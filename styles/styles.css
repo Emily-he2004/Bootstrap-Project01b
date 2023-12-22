@@ -891,3 +891,13 @@ p {
     font-size: 1.2rem;
   }
 }
+
+.conclusion {
+  margin: 6rem auto;
+  max-width: 1400px;
+}
+
+.conclusion-title {
+  text-align: center;
+  font-size: 1.8rem;
+}
