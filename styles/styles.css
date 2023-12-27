@@ -89,150 +89,13 @@ body {
     justify-content: right;
   }
 }
-.bestseller-h2 {
-  font-weight: 100;
-  font-size: 2rem;
-  margin: 0 0 1em 0;
-  color: black;
-  text-transform: uppercase;
-  text-align: center;
-}
 
-.bestseller-p {
-  font-weight: normal;
-  font-size: 1rem;
-  text-align: left;
-}
-
-.bestseller-container {
-  font-size: 1rem;
-  text-transform: uppercase;
-  position: relative;
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-.bestseller-container .bestseller-row {
-  flex: 0 0 auto;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-.bestseller-container .bestseller-option {
-  margin: 1rem 0;
-  padding: 0.5rem 0 0 1.5rem;
-}
-.bestseller-container button:hover {
-  background-color: orange;
-}
-.bestseller-container button {
-  position: sticky;
-  right: 0;
-  left: 21rem;
-  font-size: 0.8rem;
-  border-radius: 0.3rem;
-  background-color: orange;
-  color: white;
-  padding: 0.4rem 1rem;
-  border-color: orange;
-  text-transform: uppercase;
-  margin: 0 0 1.6rem 0;
-}
-.bestseller-container img {
-  max-width: 50%;
-}
-
-@media (min-width: 450px) {
-  .bestseller-h2 {
-    text-align: center;
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-  .bestseller-container {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .bestseller-container .bestseller-p {
-    font-size: 1rem;
-    max-width: 90%;
-    text-align: center;
-  }
-  .bestseller-container .bestseller-option {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 30%;
-    text-align: center;
-    flex: 1 0 100%;
-    justify-content: center;
-    font-size: 1rem;
-  }
-  .bestseller-container .bestseller-option img {
-    margin-top: 1rem;
-    max-width: 100%;
-    order: 1;
-  }
-  .bestseller-container .bestseller-option p {
-    flex: 1;
-    margin-top: 0.5rem;
-    order: 2;
-  }
-  .bestseller-container .bestseller-option button {
-    position: static;
-    width: 80%;
-    padding: 0.4rem 0.3rem;
-    margin: 1rem 0;
-    order: 3;
-  }
-}
-@media (min-width: 767px) and (max-width: 1440px) {
-  .bestseller-h2 {
-    margin-top: 3.5rem;
-  }
-  .bestseller-container {
-    overflow: auto;
-  }
-  .bestseller-container .bestseller-p {
-    font-size: clamp(0.8rem, 2vw, 1.2rem);
-    max-width: 80%;
-    text-align: center;
-  }
-  .bestseller-container .bestseller-option img {
-    max-width: 80%;
-  }
-  .bestseller-container .bestseller-option button {
-    font-size: 1rem;
-    width: 7.5rem;
-  }
-}
 .logo-slider {
   margin: 20px 0;
 }
 .logo-slider img {
   width: 100%;
   height: auto;
-}
-.logo-slider .slick-slide {
-  margin: 0 2em;
-  padding-top: 20px;
-}
-
-.logo-slider .slick-next::before {
-  content: "\f105";
-  font-family: "FontAwesome";
-  font-size: 40px;
-  color: #fc851e;
-  font-weight: 100;
-}
-
-.logo-slider .slick-prev::before {
-  content: "\f104";
-  font-family: "FontAwesome";
-  font-size: 40px;
-  color: #fc851e;
-  font-weight: 100;
 }
 
 @media (max-width: 576px) {
@@ -352,66 +215,6 @@ body {
     display: none;
   }
 }
-.video-image-container .img-button-container {
-  margin-top: 4rem;
-  position: relative;
-}
-.video-image-container .img-button-container p {
-  font-size: clamp(1rem, 5vw, 10rem);
-  font-weight: 700;
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-}
-.video-image-container .img-button-container .font-video {
-  color: black;
-  padding: 0;
-}
-.video-image-container .img-button-container img {
-  width: 100%;
-}
-.video-image-container .img-button-container .play-btn {
-  color: orange;
-  font-size: clamp(1rem, 18.5vw, 45rem);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.video-image-container .img-button-container .play-btn:active {
-  border-color: transparent;
-}
-.video-image-container .video-container {
-  max-width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.video-image-container .video-container .modal-body {
-  display: inline-flex;
-}
-.video-image-container .video-container .modal-body .btn-close {
-  position: absolute;
-  z-index: 2;
-  background-image: none;
-  color: white;
-  background-color: black;
-  opacity: 1;
-  top: -0.9rem;
-  right: -0.5rem;
-  padding: 0.3rem 1rem 0.7rem;
-  border-radius: 0%;
-  width: 3rem;
-  font-size: 1rem;
-}
-.video-image-container .video-container .modal-body .btn-close:hover {
-  background-color: orange;
-}
-.video-image-container .video-container video {
-  width: 100%;
-}
 
 .back-to-top div {
   display: inline-block;
@@ -494,14 +297,6 @@ body {
   .footer-color .footer-content .row .col {
     flex: 0 0 25%;
   }
-}
-
-.font-after-video p {
-  font-size: 1rem;
-  color: rgb(65, 64, 64);
-}
-.font-after-video .col {
-  padding: 0;
 }
 
 body {
@@ -663,51 +458,6 @@ p {
   text-transform: uppercase;
 }
 
-.shop-room {
-  margin: 20px 0;
-}
-.shop-room img {
-  width: 100%;
-  height: auto;
-}
-.shop-room .slick-slide {
-  margin: 0 2em;
-  padding-top: 20px;
-}
-
-.shop-room .slick-next::before {
-  content: "\f105";
-  font-family: "FontAwesome";
-  font-size: 40px;
-  color: #fc851e;
-  font-weight: 100;
-}
-
-.shop-room .slick-prev::before {
-  content: "\f104";
-  font-family: "FontAwesome";
-  font-size: 40px;
-  color: #fc851e;
-  font-weight: 100;
-}
-
-@media (max-width: 576px) {
-  .shop-room {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    height: 1000px;
-  }
-  .shop-room > div {
-    flex: 1 0 50%;
-    box-sizing: border-box;
-    padding: 1rem;
-  }
-  .title {
-    font-size: 1.5em;
-  }
-}
 .title {
   text-align: center;
   font-weight: 100;
@@ -717,51 +467,10 @@ p {
   text-transform: uppercase;
 }
 
-.shop-room {
-  margin: 20px 0;
-}
-.shop-room img {
-  width: 100%;
-  height: auto;
-}
-.shop-room .slick-slide {
-  margin: 0 2em;
-  padding-top: 20px;
+.title {
+  font-size: 1.5em;
 }
 
-.shop-room .slick-next::before {
-  content: "\f105";
-  font-family: "FontAwesome";
-  font-size: 40px;
-  color: #e68e00;
-  font-weight: 100;
-}
-
-.shop-room .slick-prev::before {
-  content: "\f104";
-  font-family: "FontAwesome";
-  font-size: 40px;
-  color: #e68e00;
-  font-weight: 100;
-}
-
-@media (max-width: 576px) {
-  .shop-room {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    height: 1000px;
-  }
-  .shop-room > div {
-    flex: 1 0 50%;
-    box-sizing: border-box;
-    padding: 1rem;
-  }
-  .title {
-    font-size: 1.5em;
-  }
-}
 
 /* ________PROJECT 1B STYLING FROM HERE ONWARDS________ */
 
