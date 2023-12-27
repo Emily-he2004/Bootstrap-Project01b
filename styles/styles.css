@@ -531,7 +531,7 @@ p {
   border: none;
   border-radius: 5px;
   padding: 1.2rem 0;
-  width: 14rem;
+  width: 16rem;
   height: 4rem;
   text-align: center;
   text-wrap: nowrap;
@@ -903,10 +903,10 @@ p {
   font-size: 1.8rem;
 }
 
-.demo-start{
-  border: dotted white .3rem;
-  border-radius: .7rem;
-  padding: 1.2rem .5rem .2rem .5rem;
+.demo-start {
+  border: dotted white 0.3rem;
+  border-radius: 0.7rem;
+  padding: 1.2rem 0.5rem 0.2rem 0.5rem;
   width: fit-content;
 
   display: flex;
@@ -915,11 +915,11 @@ p {
   align-items: center;
 }
 
-.demo-start p{
+.demo-start p {
   font-style: italic;
 }
 
-.demo-start-container{
+.demo-start-container {
   display: flex;
   justify-content: center;
   align-items: center;
